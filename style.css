@@ -2,16 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-size: 12px;
-    border: 2px solid red; */
-    /* font-family: 'Open Sans', sans-serif; */
 }
 
 body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    align-items: center;
+}
+
+.list_1, .list_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .background{
@@ -23,8 +25,9 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    width: 100vw;
     padding-top: 25px;
+    align-items: center;
+    max-width: 98vw;
 }
 
 .head__logo{
@@ -53,7 +56,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    min-width: 100vw;
+    max-width: 98vw;
     min-height: 85vh;
 }
 
@@ -115,7 +118,6 @@ body{
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgb(231, 228, 228);
     padding: 20px;
-
 }
 
 .top__img{
@@ -291,7 +293,6 @@ p{
         display: flex;
         justify-content: space-between;
         padding: 40px 60px;
-        width: 100vw;
     }
     
     .head__logo{
@@ -321,7 +322,6 @@ p{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 100vw;
         min-height: 70vh;
     }
     
@@ -459,11 +459,11 @@ p{
         flex-direction: column;
         border-radius: 10px;
         box-shadow: 0px -4px 4px 0px rgb(231, 228, 228);
-        margin: 0 280px;
+        margin: 0 350px;
         height: 30vh;
         justify-content: space-evenly;
         position: relative;
-        top: 110px;
+        top: 90px;
         align-items: center;
         background-color: white;
         padding: 20px 10px;
@@ -471,21 +471,21 @@ p{
     }
     
     .float__title{
-        font-size: 35px;
+        font-size: 28px;
         text-align: center;
         font-family: 'Open Sans';
         font-weight: 700;
     }
     
     .float__button{
-        padding: 20px 100px;
+        padding: 15px 80px;
         border-radius: 50px;
         border: 0;
         color: white;
         background-color: hsl(322, 100%, 66%);
         font-weight: 600;
         font-family: 'Open Sans';
-        font-size: 24px;
+        font-size: 20px;
         box-shadow: 0px 4px 4px 2px rgb(231, 228, 228);
         cursor: pointer;
     }
@@ -521,7 +521,7 @@ p{
         display: flex;
         color: hsl(212, 25%, 90%); 
         font-family: 'Poppins';
-        font-size: 18px;
+        font-size: 14px;
         gap: 50px;
         padding-bottom: 20px;
         width: 460px;
@@ -531,7 +531,7 @@ p{
         display: flex;
         color: hsl(212, 25%, 90%); 
         font-family: 'Poppins';
-        font-size: 18px;
+        font-size: 14px;
         gap: 50px;
         padding-bottom: 20px;
     }
@@ -540,7 +540,7 @@ p{
         display: flex;
         color: hsl(212, 25%, 90%); 
         font-family: 'Poppins';
-        font-size: 18px;
+        font-size: 14px;
         gap: 50px;
         padding-bottom: 50px;
     }
@@ -549,12 +549,12 @@ p{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        gap: 20px 8 0px;
+        gap: 20px 40px;
         font-family: 'Poppins';
         color: hsl(212, 25%, 90%);
         padding-bottom: 0;
         padding-top: 70px;
-        font-size: 18px;
+        font-size: 14px;
         width: 300px;
         height: 200px;
         margin-bottom: 200px;
