@@ -30,7 +30,6 @@ body{
 .head__logo{
     width: 100px;
     height: 17px;
-    align-self: center;
 }
 
 .head__button{
@@ -279,4 +278,294 @@ p{
     font-family: 'Poppins';
     font-size: 12px;
     align-self:center;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .background{
+        background-color: hsl(193, 100%, 96%);
+        background-image: url(./huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg) ;
+    }
+    
+    .head{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 60px;
+        width: 100vw;
+    }
+    
+    .head__logo{
+        margin-top: 10px;
+        width: 180px;
+        height: 30px;
+    }
+    
+    .head__button{
+        padding: 12px 50px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 2px 8px 0px rgb(231, 228, 228);
+        cursor: pointer;
+    }
+    
+    .head__button:active{
+        opacity: .7;
+    }
+    
+    .star{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        min-height: 70vh;
+    }
+    
+    .star__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 350px;
+        margin: 0px;
+        padding: 10px 60px;
+        width: 800px;
+
+    }
+    
+    .title{
+        font-size: 40px;
+        text-align: start;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        padding: 0;
+    }
+    
+    .text{
+        font-size: 16px;
+        padding: 0;
+        text-align: start;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    .star__button{
+        padding: 15px 70px;
+        border-radius: 50px;
+        border: 0;
+        color: white;
+        background-color: hsl(322, 100%, 66%);
+        font-weight: 600;
+        font-family: 'Open Sans';
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .star__button:active{
+        opacity: .5;
+    }
+    
+    .mockups{
+        width: 70vw;
+        height: 450px;
+        margin-top: 0;
+        margin-right: 60px;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 90px 80px 20px 100px;
+        min-height: 60vh;
+        justify-content: space-around;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgb(231, 228, 228);
+        padding: 30px;
+        padding-left: 80px;
+    }
+    
+    .top__img{
+        width: 45%;
+        height: 80%;
+    }
+
+    .mid{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 40px 80px 20px 100px;
+        min-height: 60vh;
+        justify-content: space-around;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgb(231, 228, 228);
+        padding: 30px;
+        padding-left: 80px;
+    }
+
+    .mid__img{
+        width: 45%;
+        height: 80%;
+    }
+
+    .bot{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 40px 80px 20px 100px;
+        min-height: 60vh;
+        justify-content: space-around;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgb(231, 228, 228);
+        padding: 30px;
+        padding-left: 80px;
+    }
+
+    .bot__img{
+        width: 45%;
+        height: 80%;
+    }
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-align: start;
+        padding: 10px 0;
+    }
+    
+    p{
+        font-size: 18px;
+        text-align: start;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding: 0;
+        padding-right: 90px;
+        color: hsl(206, 4%, 69%);
+    }
+    
+    .mid__content{
+        padding-right: 0;
+        padding-left: 90px;
+    }
+    
+    .float{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0px -4px 4px 0px rgb(231, 228, 228);
+        margin: 0 280px;
+        height: 30vh;
+        justify-content: space-evenly;
+        position: relative;
+        top: 110px;
+        align-items: center;
+        background-color: white;
+        padding: 20px 10px;
+          
+    }
+    
+    .float__title{
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+    
+    .float__button{
+        padding: 20px 100px;
+        border-radius: 50px;
+        border: 0;
+        color: white;
+        background-color: hsl(322, 100%, 66%);
+        font-weight: 600;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        box-shadow: 0px 4px 4px 2px rgb(231, 228, 228);
+        cursor: pointer;
+    }
+    
+    .float__button:active{
+        opacity: .6;
+    }
+
+    .end{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: hsl(192, 100%, 9%);
+        padding: 200px 100px 20px;
+        text-align: left;
+        height: 65vh;
+        flex-wrap: wrap;
+    }
+    
+    .end__logo{
+        width: 250px;
+        filter:grayscale(10) brightness(100);
+        padding-bottom: 30px;
+    }
+    
+    .fa-solid{
+        color: white;
+        padding-top: 4px;
+    
+    }
+    
+    .location{
+        display: flex;
+        color: hsl(212, 25%, 90%); 
+        font-family: 'Poppins';
+        font-size: 18px;
+        gap: 50px;
+        padding-bottom: 20px;
+        width: 460px;
+    }
+    
+    .phone{
+        display: flex;
+        color: hsl(212, 25%, 90%); 
+        font-family: 'Poppins';
+        font-size: 18px;
+        gap: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .email{
+        display: flex;
+        color: hsl(212, 25%, 90%); 
+        font-family: 'Poppins';
+        font-size: 18px;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px 8 0px;
+        font-family: 'Poppins';
+        color: hsl(212, 25%, 90%);
+        padding-bottom: 0;
+        padding-top: 70px;
+        font-size: 18px;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 200px;
+    }
+    
+    .footer{
+        color: hsl(212, 25%, 90%);
+        font-family: 'Poppins';
+        font-size: 12px;
+        align-self:flex-end;
+        position: relative;
+        top: 230px;
+    }
 }
