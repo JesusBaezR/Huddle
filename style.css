@@ -13,7 +13,6 @@ body{
 .background{
     background-color: hsl(193, 100%, 96%);
     background-image: url(./huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg) ;
-    min-height: 80vh;
 }
 
 .head{
@@ -52,7 +51,7 @@ body{
     justify-content: space-around;
     align-items: center;
     max-width: 98vw;
-    min-height: 85vh;
+    min-height: 80vh;
 }
 
 .star__text{
@@ -99,7 +98,7 @@ body{
 
 .mockups{
     width: 75vw;
-    height: 200px;
+    height: 220px;
     margin-top: 20px;
 }
 
@@ -282,7 +281,6 @@ p{
     .background{
         background-color: hsl(193, 100%, 96%);
         background-image: url(./huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg) ;
-        min-height: 80vh;
     }
     
     .head{
